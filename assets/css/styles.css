@@ -505,52 +505,35 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
-  width: 90%;
+.skills__10 {
+  width: 10%;
 }
-
-.skills__css {
-  width: 80%;
+.skills__20 {
+  width: 20%;
 }
-
-.skills__js {
-  width: 85%;
-}
-
-.skills__react {
+.skills__30 {
   width: 30%;
 }
-
-.skills__expressjs {
-  width: 90%;
+.skills__40 {
+  width: 40%;
 }
-
-.skills__node {
+.skills__50 {
+  width: 50%;
+}
+.skills__60 {
+  width: 60%;
+}
+.skills__70 {
   width: 70%;
 }
-
-.skills__mysql {
+.skills__80 {
   width: 80%;
 }
-
-.skills__mongodb {
-  width: 80%;
-}
-
-.skills__figma {
+.skills__90 {
   width: 90%;
 }
-
-.skills__sketch {
-  width: 85%;
-}
-
-.skills__photoshop {
-  width: 70%;
-}
-
-.skills__illustrator {
-  width: 70%;
+.skills__100 {
+  width: 100%;
 }
 
 .skills__close .skills__list {

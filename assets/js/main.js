@@ -118,7 +118,7 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
 let swiperTestimonial = new Swiper(".testimonial__container", {
     loop: true,
     grabCursor: true,
-    spaceBetween: 48,
+    spaceBetween: 18,
 
     pagination: {
       el: ".swiper-pagination",
@@ -127,7 +127,7 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
     breakpoints:{
         568: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         }
     }
   });
