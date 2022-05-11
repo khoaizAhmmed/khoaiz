@@ -2,6 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/khoaizco/public_html/
-    - /bin/cp * $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
  
