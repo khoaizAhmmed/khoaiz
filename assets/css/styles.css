@@ -414,7 +414,7 @@ img {
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  /* margin-bottom: var(--mb-2-5); */
 }
 
 .about__info-title {
