@@ -195,3 +195,16 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+
+grecaptcha.ready(function () {
+  grecaptcha
+    .execute("6LdpxKIhAAAAALOmLuww6Ptx94uXgLj-9KcnlQeT", {
+      action: "submit",
+    })
+    .then(function (token) {
+      console.log(token)
+      document.getElementById('google-token').value = token;
+    });
+})
