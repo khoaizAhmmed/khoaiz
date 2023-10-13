@@ -204,7 +204,6 @@ grecaptcha.ready(function () {
       action: "submit",
     })
     .then(function (token) {
-      console.log(token)
       document.getElementById('google-token').value = token;
     });
 })

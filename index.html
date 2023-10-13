@@ -19,14 +19,11 @@
 
     <script src="https://www.google.com/recaptcha/api.js?render=6LdpxKIhAAAAALOmLuww6Ptx94uXgLj-9KcnlQeT"></script>
 
-    <script>
-
-    </script>
+    <script></script>
 
     <title>Shaikh Khoaiz Ahmmed</title>
   </head>
   <body>
-    <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
@@ -952,17 +949,19 @@
           <form action="process.php" method="POST" class="contact__form grid">
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
+                <label for="name" class="contact__label">Name</label>
                 <input
                   required
+                  id="name"
                   type="text"
                   name="UName"
                   class="contact__input"
                 />
               </div>
               <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
+                <label for="email" class="contact__label">Email</label>
                 <input
+                  id="email"
                   required
                   type="email"
                   name="Email"
@@ -971,8 +970,9 @@
               </div>
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Project</label>
+              <label for="project" class="contact__label">Project</label>
               <input
+                id="project"
                 required
                 type="text"
                 name="Subject"
@@ -980,8 +980,9 @@
               />
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Message</label>
+              <label for="message" class="contact__label">Message</label>
               <textarea
+                id="message"
                 required
                 name="msg"
                 id=""
@@ -990,12 +991,12 @@
                 class="contact__input"
               ></textarea>
             </div>
-            <input type="hidden" id="google-token" name="g-token" value="">
+            <input type="hidden" id="google-token" name="g-token" value="" />
             <div>
               <button
                 style="border: 0px"
                 name="btn-send"
-                class=" button button--flex"
+                class="button button--flex"
               >
                 Send Message <i class="uil uil-message button__icon"></i>
               </button>
@@ -1041,7 +1042,7 @@
             ></a>
           </div>
         </div>
-        <p class="footer__copy">&#169; Khoaiz. All right reserved. test</p>
+        <p class="footer__copy">&#169; Khoaiz. All right reserved.</p>
       </div>
     </footer>
 
